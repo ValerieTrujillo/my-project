@@ -1,15 +1,30 @@
 .App {
   text-align: center;
 }
-
+.file{
+  color: rgb(199, 73, 94);
+}
+.card-title {
+  color:  rgb(199, 73, 94);
+  font-style: italic;
+  font-family: s;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
 }
-
+.text {
+  color: rgb(199, 73, 94);
+}
 .App-header {
-  background-color: #282c34;
+  background-color: #828a8a;
+  padding-bottom: calc(10rem - 56px);
+  background-attachment: fixed;
+  
+  background-image: url("https://images.unsplash.com/photo-1478562672393-2412e5b9d634?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  /* background-position: center center; */
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
