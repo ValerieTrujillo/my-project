@@ -12,6 +12,8 @@ import {
 } from "reactstrap";
 import BlogService from "../../services/BlogService";
 import MapContainer from "../googlemaps/MapContainer";
+import { purple100 } from "material-ui/styles/colors";
+import { black } from "material-ui/styles/colors";
 
 class Blogs extends React.Component {
   constructor(props) {
@@ -64,6 +66,7 @@ class Blogs extends React.Component {
         <Row>
           <Col
             style={{
+              borderoutline: black,
               width: "35vw",
               display: "flex",
               flexDirection: "column",
